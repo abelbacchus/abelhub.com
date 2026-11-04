@@ -19,7 +19,7 @@
       <ul class="nav-links">
         <li><a href="#work">Work</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="./about.html">About</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="./contact.html">Get in touch</a></li>
       </ul>
     </nav>
@@ -118,6 +118,25 @@
     </div>
   </section>
 
+
+  <section class="section band" id="about">
+    <div class="container">
+      <div class="split">
+        <div class="slot crop" data-slot="portrait" data-alt="Abel Bacchus">
+          <span class="label">Portrait slot, 4:3</span>
+          <span class="label">A photograph of you goes here</span>
+        </div>
+        <div>
+          <h2>Who you would be working with</h2>
+          <p class="measure" style="margin-top: var(--space-md);">I am Abel Bacchus. I write the code, run the infrastructure under it, and answer the email about it, which is either the appeal or the catch depending on what you need.</p>
+          <p class="measure" style="margin-top: var(--space-md);">Most of what I do sits on both sides of a release: native iOS in Swift and SwiftUI on one, and AWS, DNS and deploy pipelines on the other. Multazam is the clearest example, because I took it from an empty project to a signed build on a phone without handing any part of it to anyone else.</p>
+          <div class="actions" style="margin-top: var(--space-xl);">
+            <a class="btn" href="./about.html">More about the studio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="section">
     <div class="container">
       <div class="split">
@@ -152,6 +171,9 @@
     </div>
   </div>
 </footer>
+
+<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
 
 <script>
 (() => {
