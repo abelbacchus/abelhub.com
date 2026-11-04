@@ -1,0 +1,26 @@
+[
+ {
+  "shape": "Marquee Hero",
+  "theme": "studio",
+  "axes": "light/roman-serif/warm",
+  "hero": "Banner",
+  "nav": "edge-aligned",
+  "footer": "letter close",
+  "imagery": "the product",
+  "photos": [],
+  "entry": "abelhub.com",
+  "fingerprint": "d36630",
+  "sections": [
+   "Hero",
+   "Screens",
+   "Rows: what it needs",
+   "Split: second app",
+   "Footer"
+  ],
+  "signature": "three real captures on a proof sheet with a measured readout",
+  "waived": [],
+  "prompt": "static site for abelhub.com on GitHub Pages",
+  "date": "2026-11-04",
+  "mode": "build"
+ }
+]

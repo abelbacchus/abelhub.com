@@ -1,0 +1,32 @@
+{
+  "Comment": "Restore abelhub.com to the WordPress host",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "abelhub.com.",
+        "Type": "A",
+        "TTL": 300,
+        "ResourceRecords": [ { "Value": "15.157.174.188" } ]
+      }
+    },
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "abelhub.com.",
+        "Type": "AAAA",
+        "TTL": 300,
+        "ResourceRecords": [ { "Value": "2600:1f11:2cf:7700:46d9:350c:ba5c:f077" } ]
+      }
+    },
+    {
+      "Action": "DELETE",
+      "ResourceRecordSet": {
+        "Name": "www.abelhub.com.",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [ { "Value": "abelbacchus.github.io" } ]
+      }
+    }
+  ]
+}
