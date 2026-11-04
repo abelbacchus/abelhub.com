@@ -1,5 +1,32 @@
 [
  {
+  "mode": "redesign",
+  "depth": "full",
+  "scope": "site",
+  "shape": "Index-First",
+  "theme": "studio",
+  "axes": "light/roman-serif/warm",
+  "hero": "Poster",
+  "nav": "masthead",
+  "footer": "mast",
+  "imagery": "the product",
+  "photos": [],
+  "entry": "abelhub.com",
+  "fingerprint": "071b90",
+  "sections": [
+   "Poster hero",
+   "Services rows",
+   "The work index",
+   "Screens",
+   "How it works",
+   "Footer"
+  ],
+  "signature": "the wordmark under construction, measured at its rendered width",
+  "waived": [],
+  "prompt": "a one-person software studio open to app, cloud and automation work",
+  "date": "2026-11-04"
+ },
+ {
   "shape": "Marquee Hero",
   "theme": "studio",
   "axes": "light/roman-serif/warm",

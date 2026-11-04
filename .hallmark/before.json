@@ -1,0 +1,118 @@
+{
+ "v": 1,
+ "at": "2026-11-04T19:05:34.493Z",
+ "scope": "page",
+ "summary": {
+  "fails": 0,
+  "reflex": 0,
+  "warns": 0
+ },
+ "files": {
+  "index.html": {
+   "handlers": [],
+   "links": [
+    "about.html",
+    "apps/multazam.html",
+    "contact.html",
+    "https://abelhub.atlassian.net/servicedesk/customer/portal/1",
+    "legal/multazam-privacy.html"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  },
+  "about.html": {
+   "handlers": [],
+   "links": [
+    "about.html",
+    "apps/multazam.html",
+    "contact.html",
+    "legal/multazam-privacy.html"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  },
+  "contact.html": {
+   "handlers": [],
+   "links": [
+    "about.html",
+    "apps/multazam.html",
+    "contact.html",
+    "https://abelhub.atlassian.net/servicedesk/customer/portal/1",
+    "legal/multazam-privacy.html"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  },
+  "apps/multazam.html": {
+   "handlers": [],
+   "links": [
+    "../",
+    "../about.html",
+    "../apps/multazam.html",
+    "../contact.html",
+    "../legal/multazam-privacy.html",
+    "https://abelhub.atlassian.net/servicedesk/customer/portal/1"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  },
+  "legal/multazam-privacy.html": {
+   "handlers": [],
+   "links": [
+    "../",
+    "../about.html",
+    "../apps/multazam.html",
+    "../contact.html",
+    "../legal/multazam-privacy.html",
+    "https://abelhub.atlassian.net/servicedesk/customer/portal/1"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  },
+  "legal/multazam-support.html": {
+   "handlers": [],
+   "links": [
+    "../",
+    "../about.html",
+    "../apps/multazam.html",
+    "../contact.html",
+    "../legal/multazam-privacy.html",
+    "https://abelhub.atlassian.net/servicedesk/customer/portal/1"
+   ],
+   "fields": [],
+   "hooks": [],
+   "ids": [],
+   "scripts": []
+  }
+ },
+ "wiring": {
+  "handlers": [],
+  "links": [
+   "../",
+   "../about.html",
+   "../apps/multazam.html",
+   "../contact.html",
+   "../legal/multazam-privacy.html",
+   "about.html",
+   "apps/multazam.html",
+   "contact.html",
+   "https://abelhub.atlassian.net/servicedesk/customer/portal/1",
+   "legal/multazam-privacy.html"
+  ],
+  "fields": [],
+  "hooks": [],
+  "ids": []
+ },
+ "scripts": {},
+ "pages": {}
+}
